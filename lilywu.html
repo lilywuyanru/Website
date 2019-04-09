@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="lilywu.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="lilywu.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <title>Lily Wu</title>
+</head>
+
+<body>
+<section id="home">
+  <div id="intro">
+    <h1 id="name">Welcome</h1>
+  </div>
+
+  <div id="selections">
+    <a href="#paintings">
+      <div class="options" id="option1">
+        <img src="background1.png" class="selection-img">
+        <span class="option-name"><h2>Painting</h2></span>
+      </div>
+    </a>
+
+    <a href="#sketches">
+      <div class="options" id="option2">
+        <span class="option-name"><h2>Sketches</h2></span>
+      <img src="background2.png" class="selection-img" id="image-right">
+      </div>
+    </a>
+
+    <a href="#creations">
+      <div class="options" id="option3">
+        <img src="background3.png" class="selection-img">
+        <span class="option-name"><h2>Creations</h2></span>
+      </div>
+    </a>
+
+    <div class="options" id="contact">
+      <span class="option-name"><h2>Contact</h2></span>
+      <img src="background1.png" class="selection-img">
+    </div>
+  </div>
+</section>
+
+<section id="returnMenu">
+
+<a href="#home">
+  <div id="goHome">
+    <h3>Home</h3>
+  </div>
+</a>
+
+  <div id="goContact">
+    <h3>Contact</h3>
+  </div>
+
+</section>
+
+<section class="sections" id="paintings">
+  <p class="displayImage">
+    <button id="leftPaintingBttn" onclick="leftPainting()"> left </button>
+    <img src="painting1.jpg" id="paintingImg">
+    <button id="rightPaintingBttn" onclick="rightPainting()"> right </button>
+  </p>
+</section>
+
+<section class="sections" id="sketches">
+  <p class="displayImage">
+    <button id="leftSketchBttn" onclick="leftSketch()"> left </button>
+    <img src="sketch1.jpg" id="sketchImg">
+    <button id="rightSketchBttn" onclick="rightSketch()"> right </button>
+  </p>
+</section>
+
+<section class="sections" id="creations">
+  <p>creations</p>
+</section>
+
+
+</body>
+</html>
